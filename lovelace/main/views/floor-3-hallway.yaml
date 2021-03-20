@@ -1,0 +1,18 @@
+title: Hallway
+icon: 'mdi:floor-plan'
+id: hallway
+path: hallway
+panel: true
+badges: []
+cards:
+  - type: 'custom:layout-card'
+    layout: horizontal
+    cards:
+      - type: vertical-stack
+        title: Lights
+        cards:
+          - type: entities
+            show_header_toggle: false
+            entities:
+              - entity: light.hallway_study_ceiling
+                name: Ceiling
