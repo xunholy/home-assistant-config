@@ -1,0 +1,9 @@
+---
+id: system_set_theme
+alias: System - Set theme
+max_exceeded: silent
+action:
+  - service: frontend.set_theme
+    data:
+      name: |
+        Google Dark Theme
