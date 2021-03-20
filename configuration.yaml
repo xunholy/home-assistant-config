@@ -20,6 +20,9 @@
 homeassistant:
   legacy_templates: false
   name: Home
+  # latitude: -37.8199
+  # longitude: 145.0285
+  # elevation: 0
   latitude: !env_var SECRET_ZONE_HOME_LATITUDE
   longitude: !env_var SECRET_ZONE_HOME_LONGITUDE
   elevation: !env_var SECRET_ZONE_HOME_ELEVATION
